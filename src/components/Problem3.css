@@ -1,0 +1,80 @@
+.parent {
+  width: 55%;
+  display: flex;
+  height: 100vh;
+  border: 1px solid black;
+flex-direction: column;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.first-child {
+  display: flex;
+
+
+}
+.first-child>h4{
+    margin-right: 350px;
+}
+.first-child > div {
+  display: flex;
+}
+.first-child-child>p{
+   margin-left: 20px;
+}
+/* {second-child} */
+
+.second-child{
+    display: flex;
+    justify-content: space-between;
+    gap:10px
+}
+.second-child-one{
+    border: 1px solid black;
+    width: 50%;
+    margin-left: 15px;
+ height: 22vh;
+ border-radius: 5px;
+}
+.second-child-two{
+    border: 1px solid black;
+    width: 50%;
+    height: 22vh;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+/* {third-child} */
+
+.third-child{
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    margin-top: 10px;
+}
+.third-child-one{
+    border: 1px solid black;
+    width: 50%;
+    margin-left: 15px;
+ height: 35vh;
+ border-radius: 8px;
+}
+.third-child-two{
+    border: 1px solid black;
+    width: 50%;
+    height: 35vh;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+/* {4 }*/
+.fourth-child{
+    height: 15vh;
+    border: 1px solid black;
+    border-radius: 5px;
+   margin: 10px 15px 10px 15px ;
+}
+.fifth-child{
+    height: 15vh;
+    border: 1px solid black;
+    
+   margin: 10px 5px 10px 5px ;
+}

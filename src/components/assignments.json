@@ -1,0 +1,38 @@
+[
+    {
+      "id": "1",
+      "name": "Assignment 1",
+      "type": "assignment",
+      "dueDate": "2023-03-15",
+      "description": "Complete the first assignment"
+    },
+    {
+      "id": "2",
+      "name": "Folder 1",
+      "type": "folder",
+      "children": [
+        {
+          "id": "3",
+          "name": "Assignment 2",
+          "type": "assignment",
+          "dueDate": "2023-03-22",
+          "description": "Complete the second assignment"
+        },
+        {
+          "id": "4",
+          "name": "Folder 2",
+          "type": "folder",
+          "children": [
+            {
+              "id": "5",
+              "name": "Assignment 3",
+              "type": "assignment",
+              "dueDate": "2023-03-29",
+              "description": "Complete the third assignment"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  
